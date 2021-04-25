@@ -43,7 +43,6 @@ const btn3 = document.querySelector("#task3");
 const img = document.querySelector("#image");
 
 function changeImage(counter = 1) {
-  debugger;
   const testFunc = () => {
     img.setAttribute('src', `https://picsum.photos/1280/720?random=${counter}`);
     counter++;
