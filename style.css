@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding : 10px;
+}
+
+.task3 {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.task3 img {
+  width: 1024px;
+  height: 720px;
+}
